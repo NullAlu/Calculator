@@ -55,7 +55,7 @@ public class Calculadora {
             return op;
         } catch(NumberFormatException ex){
             switch(operacion){
-                case "sqrt" -> op=Math.sqrt(op);
+                case "sqrt" -> op=M0ath.sqrt(op);
                 case "sin" -> op=Math.sin(op);
                 case "cos" -> op=Math.cos(op);
                 case "inv" -> op=1/op;
